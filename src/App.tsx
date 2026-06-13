@@ -145,7 +145,7 @@ function App() {
               </div>
 
               <h1 className="title">
-                Get Paid to Edit Videos<br/>From Anywhere.
+                Get Paid to Edit<br/>Videos From Anywhere.
               </h1>
               
               <div className="hero-meta">
