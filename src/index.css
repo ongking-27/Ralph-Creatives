@@ -180,29 +180,19 @@ body::before {
 
 .hero-image-wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
   width: 100%;
   margin-top: 1rem;
 }
 
 .hero-image {
-  width: 100%;
+  width: calc(50% - 0.5rem);
   height: auto;
-  border-radius: 12px;
+  border-radius: 8px;
   border: 1px solid var(--border-color);
   box-shadow: 0 15px 40px -10px rgba(0, 0, 0, 0.6);
   display: block;
-}
-
-@media (min-width: 768px) {
-  .hero-image-wrapper {
-    flex-direction: row;
-    gap: 1.5rem;
-  }
-  .hero-image {
-    width: calc(50% - 0.75rem);
-  }
 }
 
 .hero-meta {
@@ -824,14 +814,7 @@ section {
     gap: 1.5rem;
   }
 
-  .hero-image-wrapper {
-    flex-direction: column;
-  }
 
-  .hero-image {
-    width: 100%;
-    min-height: auto;
-  }
 
   section, .hero, .testimonials, .bottom-cta {
     padding: 3rem 0;
