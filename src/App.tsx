@@ -118,22 +118,21 @@ function App() {
       <div className="container">
         {/* Navbar */}
         <nav className="navbar animate-fade-up">
-          <div className="logo">
+          <div className="logo" style={{ display: 'flex', alignItems: 'center' }}>
             <svg 
-              width="48" 
-              height="48" 
+              width="32" 
+              height="32" 
               viewBox="0 0 24 24" 
               fill="none" 
               xmlns="http://www.w3.org/2000/svg"
               className="logo-icon"
             >
-              <rect x="14" y="14" width="8" height="8" stroke="white" strokeWidth="2" strokeLinejoin="round" />
-              <path d="M14 14L10 10H18L22 14" stroke="white" strokeWidth="2" strokeLinejoin="round" />
-              <path d="M14 14L10 10V18L14 22" stroke="white" strokeWidth="2" strokeLinejoin="round" />
-              <path d="M10 10L2 2" stroke="white" strokeWidth="2" strokeLinecap="round" />
-              <path d="M10 18L2 10" stroke="white" strokeWidth="2" strokeLinecap="round" />
-              <path d="M18 10L10 2" stroke="white" strokeWidth="2" strokeLinecap="round" />
+              <rect x="2" y="2" width="20" height="20" rx="6" stroke="white" strokeWidth="2" />
+              <path d="M10 8L16 12L10 16V8Z" fill="white" />
             </svg>
+            <span style={{ fontSize: '1.25rem', fontWeight: 800, color: '#fff', marginLeft: '0.6rem', letterSpacing: '-0.03em' }}>
+              CFA
+            </span>
           </div>
         </nav>
 
