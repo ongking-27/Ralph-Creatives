@@ -127,9 +127,12 @@ function App() {
               xmlns="http://www.w3.org/2000/svg"
               className="logo-icon"
             >
-              <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M2 17L12 22L22 17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M2 12L12 17L22 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <rect x="14" y="14" width="8" height="8" stroke="white" strokeWidth="2" strokeLinejoin="round" />
+              <path d="M14 14L10 10H18L22 14" stroke="white" strokeWidth="2" strokeLinejoin="round" />
+              <path d="M14 14L10 10V18L14 22" stroke="white" strokeWidth="2" strokeLinejoin="round" />
+              <path d="M10 10L2 2" stroke="white" strokeWidth="2" strokeLinecap="round" />
+              <path d="M10 18L2 10" stroke="white" strokeWidth="2" strokeLinecap="round" />
+              <path d="M18 10L10 2" stroke="white" strokeWidth="2" strokeLinecap="round" />
             </svg>
           </div>
         </nav>
