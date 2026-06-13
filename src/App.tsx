@@ -141,7 +141,7 @@ function App() {
               {/* Premium Badge */}
               <div className="hero-badge">
                 <span className="hero-badge-dot"></span>
-                🇵🇭 Built for Filipino Creatives
+                Built for Filipino Creatives
               </div>
 
               <h1 className="title">
