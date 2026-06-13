@@ -370,7 +370,10 @@ h1, h2, h3, h4, h5, h6, .title, .section-title {
   font-weight: 600;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
+  text-align: center;
+  line-height: 1.4;
   cursor: pointer;
   transition: all 0.35s var(--ease-out-expo);
   box-shadow: 0 4px 20px -4px rgba(37, 99, 235, 0.4);
@@ -846,5 +849,16 @@ section {
 
   .stat-number {
     font-size: 1.5rem;
+  }
+
+  .cta-button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .cta-button-large {
+    padding: 1rem;
+    font-size: 1rem;
   }
 }
